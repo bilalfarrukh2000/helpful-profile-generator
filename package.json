@@ -1,6 +1,6 @@
 {
   "name": "helpful-profile-generator",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "dependencies": {
     "inquirer": "^9.1.0",
