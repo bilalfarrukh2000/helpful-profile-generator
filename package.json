@@ -3,15 +3,16 @@
   "type": "commonjs",
   "main": "index.js",
   "dependencies": {
-    "inquirer": "^9.1.0",
-    "jest": "^29.0.1"
+    "cheerio": "^1.0.0-rc.12",
+    "inquirer": "^8.2.4",
+    "jest": "^29.0.1",
+    "node-html-parser": "^5.4.2-0"
   },
   "description": "## Description I have created an command-line application project that encompasses information regarding employees on a software engineering team. The application generates an HTML webpage that shows a summary for each individual employee. Unit tests are provided throughout each part of the code as the goal is for it to ensure if it passes all of the employees.",
   "version": "1.0.0",
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bilalfarrukh2000/helpful-profile-generator.git"
