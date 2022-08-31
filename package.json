@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/bilalfarrukh2000/helpful-profile-generator#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   }
 }

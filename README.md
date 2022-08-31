@@ -8,9 +8,9 @@ After the user answers each question, the team profile application is generated.
 
 ## Screenshot
 
-![](/assets/images/)
+![](/assets/images/Screenshot.png)
 
 ## Links
 
-Walkthrough video: 
+Walkthrough video: https://watch.screencastify.com/v/iszl17ibMuE5U0xkAYAd
 GitHub Repo: https://github.com/bilalfarrukh2000/helpful-profile-generator

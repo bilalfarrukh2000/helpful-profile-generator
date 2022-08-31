@@ -1,7 +1,7 @@
-const emp = require("./lib/Employees.js");
-const man = require("./lib/Managers.js");
-const eng = require("./lib/Engineers.js");
-const intern = require("./lib/Interns.js");
+const emp = require("./lib/Employee.js");
+const man = require("./lib/Manager.js");
+const eng = require("./lib/Engineer.js");
+const intern = require("./lib/Intern.js");
 const inquirer = require("inquirer");
 
 const fs=require("fs");
@@ -213,7 +213,7 @@ function generateHTML() {
 
    //checks if object is a Manager object
 
-        if(EMPLOYEES[i].constructor.name==='Managers') {
+        if(EMPLOYEES[i].constructor.name==='Manager') {
   
             
           El.insertAdjacentHTML("afterbegin",
@@ -241,7 +241,7 @@ function generateHTML() {
             
           }
 
-    else if (EMPLOYEES[i].constructor.name==='Engineers') {
+    else if (EMPLOYEES[i].constructor.name==='Engineer') {
 
         El.insertAdjacentHTML("beforeend",
                   `<section class="col-3 mt-4">
